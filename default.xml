@@ -7,5 +7,8 @@
            remote="liminghao"
            sync-j="4"/>
 
+  <project path="build/make" name="liminghao/build-make">
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+  </project>
   <project path="manifest" name="liminghao/manifest"/>
 </manifest>
