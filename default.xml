@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="liminghao"
+          fetch="ssh://git@v9.git.n.xiaomi.com"/>
+
+  <default revision="master"
+           remote="liminghao"
+           sync-j="4"/>
+
+  <project path="manifest" name="liminghao/manifest"/>
+</manifest>
