@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <inlucde name="default.xml"/>
+  <include name="default.xml"/>
 
-  <project path="prebuilts/glide/linux-x86/0.13.1" name="liminghao/prebuilts-glide-linux-amd64-0-13-1"/>
-  <project path="prebuilts/go/linux-x86/1.10.3" name="liminghao/prebuilts-go-linux-amd64-1-10-3"/>
+  <project path="prebuilts/glide/linux-x86/0.13.1"
+           name="liminghao/prebuilts-glide-linux-amd64-0-13-1"/>
+  <project path="prebuilts/go/linux-x86/1.10.3"
+           name="liminghao/prebuilts-go-linux-amd64-1-10-3"/>
 </manifest>
