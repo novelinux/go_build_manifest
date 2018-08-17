@@ -17,5 +17,5 @@ $ chmod a+x ~/bin/repo
 ### openplatform-go-builder
 
 ```
-$ repo init -u git@v9.git.n.xiaomi.com:liminghao/manifest.git -m openplatform-go-builder.xml
+$ repo init -u git@v9.git.n.xiaomi.com:liminghao/manifest.git -m openplatform-go-projects.xml
 ```
