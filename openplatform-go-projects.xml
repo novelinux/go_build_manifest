@@ -7,9 +7,9 @@
   <project path="prebuilts/dep/darwin-x86/0.5.0"
            name="liminghao/prebuilts-dep-darwin_amd64-v0.5.0"/>
   <project path="prebuilts/dep/linux-x86/0.5.0"
-           name="liminghao/prebuilts-dep-linux-amd64-v0-5-0"/>
+           name="liminghao/prebuilts-dep-linux_amd64-v0.5.0"/>
   <project path="prebuilts/go/darwin-x86/1.10.3"
-           name="liminghao/prebuilts-go-darwin-amd64-v1-10-3"/>
+           name="liminghao/prebuilts-go-darwin_amd64-v1.10.3"/>
   <project path="prebuilts/go/linux-x86/1.10.3"
-           name="liminghao/prebuilts-go-linux-amd64-v1-10-3"/>
+           name="liminghao/prebuilts-go-linux_amd64-v1.10.3"/>
 </manifest>
