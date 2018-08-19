@@ -2,8 +2,10 @@
 <manifest>
   <include name="default.xml"/>
 
+  <project path="packages/src/iot.mi.com/helloworld"
+           name="liminghao/packages-src-iot.mi.com-helloworld"/>
   <project path="prebuilts/dep/darwin-x86/0.5.0"
-           name="liminghao/prebuilts-dep-darwin-amd64-v0-5-0"/>  
+           name="liminghao/prebuilts-dep-darwin-amd64-v0-5-0"/>
   <project path="prebuilts/dep/linux-x86/0.5.0"
            name="liminghao/prebuilts-dep-linux-amd64-v0-5-0"/>
   <project path="prebuilts/go/darwin-x86/1.10.3"
