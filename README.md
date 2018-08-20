@@ -1,4 +1,4 @@
-# Miot Open Platform Repo Manifest
+# The Miot Open Platform Repo Manifest
 
 ## repo
 
@@ -15,7 +15,7 @@ $ chmod a+x ~/bin/repo
 If connect to time out, please modify to REPO_URL as following:
 
 ```
-REPO_URL = 'https://github.com/esrlabs/git-repo'
+REPO_URL = 'https://github.com/novelinux/git-repo'
 ```
 
 ## download sources
