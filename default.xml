@@ -10,6 +10,7 @@
   <project path="build/make" name="liminghao/build-make">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="manifest" name="liminghao/manifest"/>
 </manifest>
