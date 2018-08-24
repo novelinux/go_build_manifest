@@ -16,4 +16,6 @@
            name="liminghao/prebuilts-go-darwin_amd64-v1.10.3"/>
   <project path="prebuilts/go/linux-x86/1.10.3"
            name="liminghao/prebuilts-go-linux_amd64-v1.10.3"/>
+  <project path="prebuilts/thrift/linux-x86/0.11.0"
+           name="liminghao/prebuilts-thrift-linux_amd64-v0.11.0"/>
 </manifest>
