@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="liminghao"
+  <remote name="miot-business-like/go"
           fetch="ssh://git@v9.git.n.xiaomi.com"/>
 
   <default revision="master"
-           remote="liminghao"
+           remote="miot-business-like/go"
            sync-j="4"/>
 
-  <project path="build/make" name="liminghao/build-make">
+  <project path="build/make" name="miot-business-like/build-make">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="manifest" name="liminghao/manifest"/>
+  <project path="manifest" name="miot-business-like/go/manifest"/>
 </manifest>
