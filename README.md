@@ -23,5 +23,5 @@ REPO_URL = 'https://github.com/novelinux/git-repo'
 ### openplatform-go-builder
 
 ```
-$ repo init -u git@v9.git.n.xiaomi.com:miot-business-like/go/manifest.git -m openplatform-go-projects.xml
+$ repo init -u git@v9.git.n.xiaomi.com:miot-business-like/golang/manifest.git -m openplatform-go-projects.xml
 ```
