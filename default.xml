@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="common"
-          fetch="ssh://git@v9.git.n.xiaomi.com/miot-business-like/"/>
-  <remote name="golang"
-          fetch="ssh://git@v9.git.n.xiaomi.com/miot-business-like/golang"/>
+  <remote name="novelinux"
+          fetch="https://github.com/novelinux"/>
 
   <default revision="master"
-           remote="common"
+           remote="novelinux"
            sync-j="4"/>
 
-  <project path="build/make" name="build-make">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
 </manifest>
