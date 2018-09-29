@@ -2,22 +2,32 @@
 <manifest>
   <include name="default.xml"/>
 
+  <project path="manifest" name="manifest"/>
   <project path="packages/src/helloworld"
-           name="miot-business-like/go/packages-src-helloworld"/>
+           name="packages-src-helloworld"
+           remote="golang"/>
   <project path="packages/src/github.com/gogs/gogs"
-           name="miot-business-like/go/packages-src-github.com-gogs-gogs"/>
+           name="packages-src-github.com-gogs-gogs"
+           remote="golang"/>
   <project path="packages/src/miot-builder"
-           name="miot-business-like/go/packages-src-miot_builder"/>
+           name="packages-src-miot_builder"
+           remote="golang"/>
   <project path="prebuilts/dep/darwin-x86/0.5.0"
-           name="miot-business-like/go/prebuilts-dep-darwin_amd64-v0.5.0"/>
+           name="prebuilts-dep-darwin_amd64-v0.5.0"
+           remote="golang"/>
   <project path="prebuilts/dep/linux-x86/0.5.0"
-           name="miot-business-like/go/prebuilts-dep-linux_amd64-v0.5.0"/>
-  <project path="prebuilts/go/darwin-x86/1.10.3"
-           name="miot-business-like/go/prebuilts-go-darwin_amd64-v1.10.3"/>
-  <project path="prebuilts/go/linux-x86/1.10.3"
-           name="miot-business-like/go/prebuilts-go-linux_amd64-v1.10.3"/>
+           name="prebuilts-dep-linux_amd64-v0.5.0"
+           remote="golang"/>
+  <project path="prebuilts/darwin-x86/1.10.3"
+           name="prebuilts-go-darwin_amd64-v1.10.3"
+           remote="golang"/>
+  <project path="prebuilts/linux-x86/1.10.3"
+           name="prebuilts-go-linux_amd64-v1.10.3"
+           remote="golang"/>
   <project path="prebuilts/thrift/linux-x86/0.11.0"
-           name="miot-business-like/go/prebuilts-thrift-linux_amd64-v0.11.0"/>
+           name="prebuilts-thrift-linux_amd64-v0.11.0"
+           remote="golang"/>
   <project path="prebuilts/thrift/darwin-x86/0.11.0"
-           name="miot-business-like/go/prebuilts-thrift-darwin_amd64-v0.11.0"/>
+           name="prebuilts-thrift-darwin_amd64-v0.11.0"
+           remote="golang"/>
 </manifest>
