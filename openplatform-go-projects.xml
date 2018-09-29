@@ -6,9 +6,6 @@
   <project path="packages/src/helloworld"
            name="packages-src-helloworld"
            remote="golang"/>
-  <project path="packages/src/github.com/gogs/gogs"
-           name="packages-src-github.com-gogs-gogs"
-           remote="golang"/>
   <project path="packages/src/miot-builder"
            name="packages-src-miot_builder"
            remote="golang"/>
